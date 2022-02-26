@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My Site</title>
+<!---LORD ICON LINK-->
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/DES.PNG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="users">
+            <img src="images/DESS1.jpg">
+            <h3 class="name">Desmond Aloo</h3>
+            <p class="post"> Solution architect and developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!---headerends------>
+    <!---content starts----->
+
+    <div class="container">
+
+        <section class="Home" id="Home">
+        <h3>Hello there.......</h3>
+        <h3 class="name">My name is <span>Desmond Aloo</span></h3>
+        <h3 class="post">i am a <span class="type">Solution architect and developer</span></h3>
+
+        <a href="#"><button class="btn">Hire me</button></a>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fas fa-link"></a>
+            
+        </div>
+    
+    </section>
+    <!----About section---->
+    <section class="About" id="About">
+        <h1 class="heading">About me</h1>
+        <div class="content">
+            <h3 class="name">my name is <span>Desmond Aloo</span></h3>
+            <P>Am a recent graduate in Information Technology, I specilize initial
+                AWS Solution Architect.
+            </P>
+            <p>I can also do web development and web design.</p>
+        </div>
+
+
+        <div class="skills">
+            <div class="progress">
+                <h3>html <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>css <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>javascript <span>65%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>AWS <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+        </div>
+    </section>
+   <!----SERVICES CODE-->
+<section class="Services" id="Services">
+
+    <h1 class="heading">My Services</h1>
+    
+    <div class="boxcontainer">
+        <div class="box">
+            <i class="fab fa-html5"></i>
+            <P>HTML5 </P>
+        </div>
+        <div class="box">
+            <i class="fab fa-css3"></i>
+            <P>CSS </P>
+        </div>
+        <div class="box">
+            <i class="fab fab fa-js"></i>
+            <P>JAVASCRIPT </P>
+        </div>
+        <div class="box">
+            <i class="fab fa-aws"></i>
+            <P>AWS</P>
+        </div>
+    </div>
+</section>
+    
+<!---EDUCATION SECTION----->
+
+<section class="Education" id="Education">
+    <h1 class="heading">MY Education </h1>
+        <div class="boxcontainer">
+            <div class="box">
+                <div class="year">2013 - 2016</div>
+                <h3>KCSE Education</h3>
+                <p>Successfully completed my Secondary education at Mother of Apostles Seminary and got a gread off B</p>
+
+            </div>
+            <div class="box">
+                <div class="year">2017 - 2021</div>
+                <h3>UNIVERSITY Education</h3>
+                <p>Successfully completed my University education at Kirinyaga University and Earned myself secondclass Upper division Honours in Information Technology</p>
+
+            </div>
+        </div>
+   
+</section>
+
+<section class="Contact" id="Contact">
+    <h1 class="heading">Contact Me</h1> 
+    <div class="row">
+        <form action="" class="form-horizontal">
+            <input type="text" class="box" placeholder="First Name">
+            <input type="text" class="box" placeholder="Last Name">
+            <input type="email" class="box" placeholder="Your Email">
+            <input type="text" class="box" placeholder="Your Project">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <input type="submit" value="message" class="btn">
+        </form>
+        <div class="content">
+            <div class="icons">
+                <h3><i class="fas fa-map-marker"></i>Address</h3>
+                <p>Uasin Gishu, Kenya</p>
+            </div>
+
+            <div class="icons">
+                <h3><i class="fas fa-envelope"></i>Email</h3>
+                <p>Desmondowiso@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <h3><i class="fas fa-phone"></i>Phone</h3>
+                <p>+254 710177389</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </div> 
+    
+    
+    <!----JAVASCRIPT FUNCTIONS-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>    
+<script>
+    var type = new Typed('.type',{
+        strings : ['Solution Architect', 'Web Designer', 'front end developer', 'AWS consultant'],
+        typeSpeed : 120,
+        loop : true
+    });
+</script>
+
+
+</body>
+</html>
